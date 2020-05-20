@@ -1,0 +1,88 @@
+.aboutme {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgba(215, 219, 213, 0.027);
+}
+
+.selfie {
+    position: relative;
+    margin-left: 0em;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    opacity: 0.4;
+    background-color: white;
+
+}
+
+.contact {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.regular {
+    font-size: large;
+}
+
+.portfolio {
+    position: relative;
+    font-size: large;
+    left: 0px;
+    margin-top: 20px;
+    height: 30px;
+    width: 60px;
+    }
+
+.havefun {
+    position: relative;
+    margin-top: 35px;
+}
+
+.mustang {
+    position: relative;
+    margin-top: 30px;
+    background-color: tomato;
+}
+
+.dreamliner {
+    position: relative;
+    margin-top: 30px;    
+}
+
+@media screen and (max-width:991px){
+    .swords {
+        background-color: rgb(159, 209, 205);
+    }
+    }
+
+
+
+@media screen and (max-width:768px){
+.swords {
+    background-color: rgb(165, 209, 209);
+    border: solid 4px pink;
+}
+}
+
+@media screen and (max-width:640px){
+    .swords{
+        background-color: lightblue ;
+        font-family: 'Pinyon Script', cursive;
+    font-family: 'Quantico', sans-serif;
+    border: lightpink 3px solid;
+    }
+}
